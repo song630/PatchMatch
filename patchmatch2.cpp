@@ -5,8 +5,8 @@
 #define IMG_PATH "D://from_ImageNet/"  // the file where the images are saved
 #define ITERATIONS 6
 #define MAX_SIMIARITY 1e6
-#define MAX2(a, b) ((a > b) ? (a) : (b))
-#define MIN2(a, b) ((a < b) ? (a) : (b))
+#define MAX2(a, b) (((a) > b) ? (a) : (b))
+#define MIN2(a, b) (((a) < b) ? (a) : (b))
 
 using namespace std;
 using namespace cv;
